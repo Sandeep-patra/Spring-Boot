@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;in.ashokit.RestruntService&apos; to &apos;RestaurantService&apos;&#x0D;&#x0A;- Original project: &apos;01-IOC-app&apos;&#x0D;&#x0A;- Original element: &apos;in.ashokit.RestruntService&apos;&#x0D;&#x0A;- Renamed element: &apos;in.ashokit.RestaurantService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RestruntService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ashokit{RestruntService.java[RestruntService" matchStrategy="1" name="RestaurantService" qualified="false" references="true" similarDeclarations="false" stamp="1707936054217" textual="false" version="1.0"/>
-</session>

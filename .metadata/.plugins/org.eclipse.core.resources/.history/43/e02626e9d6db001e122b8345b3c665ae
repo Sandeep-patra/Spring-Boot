@@ -1,9 +1,0 @@
-package in.Ashokit.Repo;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import in.Ashokit.entity.Employee;
-
-public interface EmpRepo extends JpaRepository<Employee, Integer> {
-
-}
