@@ -1,0 +1,14 @@
+package in.Ashokit;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Nexon implements ICar {
+
+	@Override
+	public void start() {
+		
+
+	}
+
+}

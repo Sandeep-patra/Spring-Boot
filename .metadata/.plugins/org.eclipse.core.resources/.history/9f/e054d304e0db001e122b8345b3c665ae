@@ -1,0 +1,40 @@
+package in.Ashokit.Service;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.Ashokit.Repo.StudentRepo;
+import in.Ashokit.entity.Student;
+
+public class StudentService {
+	private StudentRepo sRepo;
+	Scanner sc=new Scanner(System.in);
+	
+		public StudentService() {
+		// TODO Auto-generated constructor stub
+	}
+
+		@Autowired
+	public StudentService(StudentRepo sRepo) {
+		this.sRepo = sRepo;
+	}
+	public void saveStudents() {
+		System.out.println("Enter no of Student want to saved");
+		int noS=sc.nextInt();
+		ArrayList<Student> sList=new ArrayList<>();
+		 for(;noS>0;) {
+			 System.out.println("Enter the details \n id,name,qualification,gender for Student "+noS);
+			 Student s=new Student(sc.nextInt(), sc.nextLine(),sc.nextLine(), sc.next().charAt(0));
+			 
+			sList.add(s)a;
+			 noS--;
+		 }
+		
+	}
+		
+	
+	
+
+}

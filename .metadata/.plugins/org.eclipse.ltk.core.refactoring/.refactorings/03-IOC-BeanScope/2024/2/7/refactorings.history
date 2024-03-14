@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.BeanScope.Ivehicles&apos; to &apos;IVehicles&apos;&#x0D;&#x0A;- Original project: &apos;03-IOC-BeanScope&apos;&#x0D;&#x0A;- Original element: &apos;in.BeanScope.Ivehicles&apos;&#x0D;&#x0A;- Renamed element: &apos;in.BeanScope.IVehicles&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ivehicles&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.BeanScope{Ivehicles.java[Ivehicles" matchStrategy="1" name="IVehicles" qualified="false" references="true" similarDeclarations="false" stamp="1708064271735" textual="false" version="1.0"/>
+</session>

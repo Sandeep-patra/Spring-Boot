@@ -1,0 +1,10 @@
+package in.Ashokit.Repositry;
+
+import org.springframework.data.repository.CrudRepository;
+
+import in.Ashokit.entity.Student;
+
+public interface StudentRepo extends CrudRepository<Student, Integer> {
+
+	
+}

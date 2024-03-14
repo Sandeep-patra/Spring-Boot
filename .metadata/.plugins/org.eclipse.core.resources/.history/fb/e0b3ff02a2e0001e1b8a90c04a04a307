@@ -1,0 +1,15 @@
+package in.Ashokit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.Ashokit.Repositry.StudentRepo;
+
+@Service
+public class StudentService {
+	@Autowired
+	private StudentRepo srepo;
+	
+	srepo.
+	
+}

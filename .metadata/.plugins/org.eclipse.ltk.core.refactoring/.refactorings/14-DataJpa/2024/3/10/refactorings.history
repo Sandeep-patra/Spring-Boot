@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;run&apos; from expression &apos;SpringApplication.run(Application.class,args)&apos;&#x0D;&#x0A;- Original project: &apos;14-DataJpa&apos;&#x0D;&#x0A;- Variable name: &apos;run&apos;&#x0D;&#x0A;- Destination method: &apos;in.Ashokit.Application.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;SpringApplication.run(Application.class,args)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;run&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.Ashokit{Application.java" name="run" replace="true" replaceAllInThisFile="false" selection="237 46" stamp="1709575933549" varType="false" version="1.0"/>
+</session>

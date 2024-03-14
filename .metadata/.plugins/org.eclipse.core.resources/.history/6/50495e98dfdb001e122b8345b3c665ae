@@ -1,0 +1,29 @@
+package in.Ashokit.Service;
+
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.Ashokit.Repo.StudentRepo;
+
+public class StudentService {
+	private StudentRepo sRepo;
+	Scanner sc=new Scanner(System.in);
+	
+		public StudentService() {
+		// TODO Auto-generated constructor stub
+	}
+
+		@Autowired
+	public StudentService(StudentRepo sRepo) {
+		this.sRepo = sRepo;
+	}
+	public void saveStudents() {
+		System.out.println("Enter no of Student want to saved");
+		
+	}
+		
+	
+	
+
+}
